@@ -1,10 +1,38 @@
-body {
-  background-color: antiquewhite;
+*, *::before, *::after {
+  box-sizing: border-box;
 }
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+}
+
+
 h1 {
   color: darkred;
+  text-align: center;
 }
-li { 
-  color: darkblue;
+ul {
+  list-style: none;
+}
+
+li a { 
+  color: darkred;
   font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+}
+
+.title {
+  padding: 10px;
+  background-color: aliceblue;
+  width: 300px;
+  margin: 10px auto;
+}
+
+.list {
+  background-color: aliceblue;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px 0;
 }
